@@ -1,0 +1,32 @@
+.new-collections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.new-collections h1 {
+  color: darkgoldenrod;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.new-collections hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  border: none;
+  background: darkgoldenrod;
+}
+
+.collections {
+  padding-top: 80px;
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}

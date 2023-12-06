@@ -1,0 +1,56 @@
+.news-letter {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: darkgoldenrod;
+  color: black;
+  gap: 30px;
+}
+
+.news-letter h1 {
+  color: black;
+  font-size: 55px;
+  font-weight: 600px;
+}
+
+.news-letter p {
+  color: black;
+  font-size: 30px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 730px;
+  height: 170px;
+  border-radius: 70px;
+}
+
+.news-letter input {
+  width: 500px;
+  height: 70px;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 20px;
+  background: darkgoldenrod;
+  outline: none;
+  margin-right: 10px;
+}
+
+.news-letter input::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+.news-letter button {
+  width: 210px;
+  height: 70px;
+  border-radius: 15px;
+  background: black;
+  color: darkgoldenrod;
+  font-size: 20px;
+  cursor: pointer;
+}
